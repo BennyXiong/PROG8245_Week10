@@ -2,13 +2,13 @@ import os
 from sklearn.datasets import fetch_20newsgroups
  
 # Set the number of documents to save
-num_docs = 20  # You can change this number
+num_docs = 50  # You can change this number
  
 # Load the dataset (text only, no headers/footers/quotes)
 newsgroups_data = fetch_20newsgroups(subset='all', remove=('headers', 'footers', 'quotes'))
  
 # Create output directory (optional)
-output_dir = "sample_docs"
+output_dir = "sample_docs2"
 os.makedirs(output_dir, exist_ok=True)
  
 # Write the first `num_docs` documents into separate .txt files
