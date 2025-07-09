@@ -12,4 +12,4 @@ This Lab uses Python and Jupyter Notebook in a VS Code environment to deal with 
 
 ## Data Source: 
 
-1. sample_docs: using the DocGen.py to create 20 text files
+1. sample_docs: using DocGen.py to create 20 text files
